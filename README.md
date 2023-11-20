@@ -7,3 +7,5 @@ The neural net tries to predict a binary variable (snow on ground is either `Tru
 Note that this notebook very closely follows a nice example outlined in [this Medium article](https://towardsdatascience.com/machine-learning-for-beginners-an-introduction-to-neural-networks-d49f22d238f9) but uses real data from a Snotel site in an effort to make the problem more closely related to the hydrologic sciences. 
 
 The network contains 2 input layers ('Day of Year' and 'Daily Mean Air Temperature'), 2 hidden layers (`h1` and `h2`), and a single output layer (`o1`, whether there is snow or not). Note that we're using the logistic sigmoid function as our activation function. So, the output of the neural network is a variable that is continuous on the interval (0,1). We turn this into a categorical variable by reclassifying output values between (0,5) as being _snow free_ and output values from [0.5,1.0) as being _snow covered_. The visualization of our neural network is as follows:
+
+<img src='Neural Net Schematic.png' alt='Schematic of neural network' width='80%'/>
