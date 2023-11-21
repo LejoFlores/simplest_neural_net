@@ -13,3 +13,4 @@ The network contains 2 input layers ('Day of Year' and 'Daily Mean Air Temperatu
 This repo contains the following 2 notebooks:
 1. [1_DataCleanupStep.ipynb](./1_DataCleanupStep.ipynb): A data cleanup and processing step, and
 2. [2_SimplestNeuralNet.ipynb](./2_SimplestNeuralNet.ipynb): A notebook in which we create, fit, and examine a neural net from scratch.
+3. [3_SimplestNeuralNet_sklearn.ipynb](./3_SimplestNeuralNet_sklearn.ipynb): A notebook that repeats the previous example, but instead uses a machine learning library to fit the model. 
